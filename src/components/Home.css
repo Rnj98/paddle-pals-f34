@@ -1,0 +1,28 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.spotscard-display {
+    max-height: 83vh;
+    overflow-y: auto;
+    margin-top: 12px;
+}
+
+.home-display input {
+    position: relative;
+    width: 250px;
+    left: 41%;
+    margin-top: 12px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: #ff4400d0;
+    color: white;
+}
+.home-display input:hover {
+    background-color: rgba(255, 166, 134, 0.767);
+  }
+
+.home-display input::placeholder {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}

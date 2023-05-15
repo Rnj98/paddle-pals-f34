@@ -1,0 +1,70 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.spots-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    grid-gap: 15px;
+    margin: 25px;
+  }
+  
+  .spotCard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid #ff4400a2;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 350px;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 0.771);
+  }
+  .spotCard-container:hover {
+    background-color: rgba(23, 23, 23, 0.771);
+    color: rgb(255, 255, 255);
+  }
+  
+  .spotCard-container h1 {
+    font-size: 20px;
+    margin-top: 2px;
+    color: #ff4400d0;
+  }
+  .spotCard-container p {
+    font-size: 14px;
+    margin: 2.5px;
+  }
+  
+  .spotCard-container img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .spotCard-container button {
+    max-width: 75px;
+    max-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff4400d0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 7px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .spotCard-container button:hover {
+    background-color: #ff7f50;
+  }
+  .parking-lot {
+    color: white;
+  }
+  
+  .parking-lot span {
+    color: #ff4400d0;
+  }
+  

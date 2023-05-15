@@ -1,0 +1,104 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.addSpots-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 122px;
+}
+
+.addSpots-container input {
+  border: 2px solid transparent;
+  padding: 2px;
+  margin: 2.5px;
+  max-width: 175px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  align-items: center;
+  flex-direction: row;
+  width: 170px;
+}
+
+.addSpots-container ::placeholder {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
+.addSpot-btn {
+  background-color: #ff4400d0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.p-lot {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.p-lot p {
+    max-width: 175px;
+    width: 170px;
+  border: 2px solid transparent;
+  padding: 2px;
+  margin: 3px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  align-items: center;
+  flex-direction: row;
+}
+
+.addSpot-btn:hover {
+  background-color: #ff7f50;
+}
+
+.yn-display {
+  display: flex;
+  position: relative;
+  left: 2px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 5px solid transparent;
+  border-radius: 4px;
+  max-width: 170px;
+}
+
+.yn-display input[type="radio"] {
+    width: 40px;
+    margin: 0 0px;
+    position: relative;
+    left: 8px;
+    top: 1px;
+  }
+
+.input-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder {
+    text-align: center;
+  }
+  
+  ::-moz-placeholder {
+    text-align: center;
+  }
+  
+  :-ms-input-placeholder {
+    text-align: center;
+  }

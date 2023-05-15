@@ -1,0 +1,55 @@
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 105px;
+}
+
+.auth-h1, .auth-h2 {
+    margin: 7px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    border-radius: 4px;
+}
+
+.auth-form input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: transparent;
+    color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.auth-form input::placeholder {
+    color: #fff;
+    font-size: 15px;
+  }
+.auth-h1 {
+    font-size: 45px;
+}
+
+.register-btn {
+    border: 2px transparent;
+    border-radius: 4px;
+    padding: 3px 6px;
+    margin-top: 5px;
+    background-color: #ff4400d0;
+    font-size: 15px;
+    color: white;
+}
+
+.register-btn:hover {
+    background-color: #ff7442d0;
+    cursor: pointer;
+}

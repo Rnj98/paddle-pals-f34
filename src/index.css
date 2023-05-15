@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#root {
+  background-image: url("./assets/main1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+*::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 4px;
+}
+*::-webkit-scrollbar-track {
+  background: black;
+  border-radius: 5px;  
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);    
+  border-radius: 20px;     
+  border: 8px solid orangered;  
+  color: white;
+}
