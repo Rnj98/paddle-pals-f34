@@ -4,7 +4,7 @@ const cors = require("cors");
 const { sequelize } = require("./util/database");
 const { User, Spots } = require("./models/tables");
 
-const { SERVER_PORT } = process.env;
+const { PORT } = process.env;
 
 const { isAuthenticated } = require("./middleware/isAuth");
 const { register, login } = require("./controllers/authCtrl");
@@ -27,6 +27,6 @@ app.delete("/spots/:id", deleteSpot);
 sequelize
   .sync()
   .then(() => {
-    app.listen(SERVER_PORT, () => console.log(`We ride to ${SERVER_PORT}`));
+    app.listen(PORT, () => console.log(`We ride to ${PORT}`));
   })
   .catch((err) => console.log(err));
