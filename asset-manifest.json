@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/paddle-pals-f34/static/css/main.0d0e6810.css",
+    "main.js": "/paddle-pals-f34/static/js/main.0e31b805.js",
+    "static/media/main1.jpg": "/paddle-pals-f34/static/media/main1.1e49d25a18e35fb46d1c.jpg",
+    "index.html": "/paddle-pals-f34/index.html",
+    "main.0d0e6810.css.map": "/paddle-pals-f34/static/css/main.0d0e6810.css.map",
+    "main.0e31b805.js.map": "/paddle-pals-f34/static/js/main.0e31b805.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d0e6810.css",
+    "static/js/main.0e31b805.js"
+  ]
+}
