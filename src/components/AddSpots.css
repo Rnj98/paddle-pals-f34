@@ -47,8 +47,8 @@
 }
 
 .p-lot p {
-    max-width: 175px;
-    width: 170px;
+  max-width: 175px;
+  width: 170px;
   border: 2px solid transparent;
   padding: 2px;
   margin: 3px;
@@ -75,30 +75,30 @@
 }
 
 .yn-display input[type="radio"] {
-    width: 40px;
-    margin: 0 0px;
-    position: relative;
-    left: 8px;
-    top: 1px;
-  }
+  width: 40px;
+  margin: 0 0px;
+  position: relative;
+  left: 8px;
+  top: 1px;
+}
 
 .input-container {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 ::-webkit-input-placeholder {
-    text-align: center;
-  }
-  
-  :-moz-placeholder {
-    text-align: center;
-  }
-  
-  ::-moz-placeholder {
-    text-align: center;
-  }
-  
-  :-ms-input-placeholder {
-    text-align: center;
-  }
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+::-moz-placeholder {
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
