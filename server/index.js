@@ -4,7 +4,8 @@ const cors = require("cors");
 const { sequelize } = require("./util/database");
 const { User, Spots } = require("./models/tables");
 const { PORT } = process.env;
-const {CONNECTION_STRING} = process.env.
+const {CONNECTION_STRING} = process.env;
+
 const { isAuthenticated } = require("./middleware/isAuth");
 const { register, login } = require("./controllers/authCtrl");
 const { addSpot, getAllSpots, deleteSpot } = require("./controllers/spotsCtrl");
