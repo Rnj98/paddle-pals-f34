@@ -3,9 +3,8 @@ const express = require("express");
 const cors = require("cors");
 const { sequelize } = require("./util/database");
 const { User, Spots } = require("./models/tables");
-const { baseURL } = process.env
 const { PORT } = process.env;
-
+const {CONNECTION_STRING} = process.env.
 const { isAuthenticated } = require("./middleware/isAuth");
 const { register, login } = require("./controllers/authCtrl");
 const { addSpot, getAllSpots, deleteSpot } = require("./controllers/spotsCtrl");
@@ -17,12 +16,12 @@ app.use(cors());
 User.hasMany(Spots);
 Spots.belongsTo(User);
 
-app.post(`${baseURL}/register`, register);
-app.post(`${baseURL}/login`, login);
+app.post(`${CONNECTION_STRING}/register`, register);
+app.post(`${CONNECTION_STRING}/login`, login);
 
-app.get(`${baseURL}/spots/:userId`, getAllSpots);
-app.post(`${baseURL}/spots`, isAuthenticated, addSpot);
-app.delete(`${baseURL}/spots/:id`, deleteSpot);
+app.get(`${CONNECTION_STRING}/spots/:userId`, getAllSpots);
+app.post(`${CONNECTION_STRING}/spots`, isAuthenticated, addSpot);
+app.delete(`${CONNECTION_STRING}/spots/:id`, deleteSpot);
 
 sequelize
   .sync()
