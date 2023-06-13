@@ -30,7 +30,7 @@ const Auth = () => {
   };
 
   return (
-    <main className="auth-container">
+    <main className="text-white">
       <h1 className="auth-h1">Welcome!</h1>
       <h2 className="auth-h2">Please login or register</h2>
       <form className="auth-form"

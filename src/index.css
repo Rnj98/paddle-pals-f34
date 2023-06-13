@@ -1,17 +1,19 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  color: white;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app-wrapper {
+  background-image: url('/src/assets/main1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
 
-#root {
-  background-image: url("./assets/main1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100%;
+.header {
+  background-image: none; /* or specify a different background */
 }
+
 *::-webkit-scrollbar {
   width: 12px;
   border-radius: 4px;

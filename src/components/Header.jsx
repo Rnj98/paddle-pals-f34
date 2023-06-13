@@ -7,13 +7,18 @@ import './Header.css'
 function Header() {
   const authCtx = useContext(AuthContext);
   return (
-    <div className="header-container">
-      <h2>Paddle Pals</h2>
-      <nav className="nav">
+    <header>
+      <h2 className="text-white">Paddle Pals</h2>
+      <nav className="text-white">
         {authCtx.token ? (
           <ul>
+            <li>
               <NavLink to="/">Home</NavLink>
+            </li>
+            <li>
               <NavLink to="/add">Add</NavLink>
+            </li>
+            <li>
               <button
                 onClick={() => {
                   authCtx.logout();
@@ -21,16 +26,22 @@ function Header() {
               >
                 Logout
               </button>
+            </li>
           </ul>
         ) : (
           <ul>
+            <li>
               <NavLink to="/">Home</NavLink>{" "}
+            </li>
+            <li>
               <NavLink to="auth">Register or Login</NavLink>
+            </li>
           </ul>
         )}
       </nav>
-    </div>
+    </header>
   );
 }
+
 
 export default Header;

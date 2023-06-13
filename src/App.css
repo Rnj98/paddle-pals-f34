@@ -1,11 +1,7 @@
-.App {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-h2 {
-    padding: 0;
-    margin: 0;
-}
-
+.header {
+    background-image: none;
+  }
